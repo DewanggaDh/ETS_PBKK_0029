@@ -11,9 +11,6 @@
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="card mt-5">
-                    <h3 class="card-title text-center mt-5">
-                        Guest's Form
-                    </h3>
                     <div class="card-body">
                         <!-- menambahkan query string warna dengan value biru -->
                         <form method="POST" enctype="multipart/form-data">

@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/login', [FormController::class, 'input']);
+//Route::get('/history')
