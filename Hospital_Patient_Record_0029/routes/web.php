@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FormController;
+use App\Http\Controllers\view_dbController;
+use App\Http\Controllers\historyController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,4 +21,5 @@ Route::get('/', function () {
 });
 
 Route::get('/login', [FormController::class, 'input']);
-//Route::get('/history')
+Route::get('/history', [view_dbController::class, 'index']);
+Route::get('/rekam', [historyController::class, 'input']);
